@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Policy Bachat using BS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .headerForm li:hover {
+        border-bottom: 2px solid lightblue;
+        background-color: rgb(206, 206, 206);
+      }
+
+      .top-footer li > a:hover {
+        border-bottom: 2px solid skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="policyBachat">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <div class="logo">
+              <img src="/policy_media/pb-logo.webp" alt="" />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="d-lg-flex justify-content-lg-end navbar-collapse"
+              id="navbarNav"
+            >
+              <div class="navRight d-flex justify-content-end">
+                <ul class="navbar-nav">
+                  <li class="nav-item me-2">
+                    <img src="/policy_media/we-are-hiring.webp" alt="" />
+                  </li>
+                  <li class="nav-item">
+                    <p class="mb-0">Need Help? Call 1800-123-4003</p>
+                    <p class="text-end fs-7">(9:00 AM to 9:00 PM)</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section
+        class="formMain container-fluid m-0 pb-4"
+        style="background-color: #7b00ff"
+      >
+        <div class="form-head text-center text-light p-2">
+          <h3>Start Saving Money on Insurance Policy</h3>
+          <p>
+            Compare Life, Health, Car and Two wheeler Insurance rates from top
+            Insurance companies for free
+          </p>
+        </div>
+        <div
+          class="container bg-light"
+          style="
+            max-width: 450px;
+            border-radius: 8px;
+            border-bottom: 2px solid black;
+          "
+        >
+          <div
+            class="row justify-content-center"
+            style="border-bottom: 1px solid black"
+          >
+            <div class="col-12 p-2">
+              <ul
+                class="headerForm list-inline m-0 text-dark flex-xs-wrap"
+                style="display: flex; justify-content: space-between"
+              >
+                <li class="list-inline-item me-0">
+                  <a class="text-dark text-decoration-none p-2" href="">Car</a>
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-dark text-decoration-none p-2 p-xs-1" href=""
+                    >Term</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-dark text-decoration-none p-2" href=""
+                    >Investment</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-dark text-decoration-none p-2" href=""
+                    >Health</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-dark text-decoration-none p-2" href="">Bike</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12" style="width: 71vw">
+              <div class="mb-3 w-auto">
+                <h5 class="text-center p-1" style="color: #7b00ff">
+                  Compare Car Insurance Quotes
+                </h5>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Enter Car Number"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+              <div
+                class="btn-group container d-flex justify-content-center align-items-center p-2"
+                style="width: 150px"
+                role="group"
+                aria-label="Basic example"
+              >
+                <button
+                  type="button"
+                  class="btn text-light"
+                  style="background-color: #1ba678"
+                >
+                  View Prices
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12" style="width: 71vw">
+              <div
+                class="btn-group container d-flex justify-content-center align-items-center p-2"
+                style="max-width: 350px"
+                role="group"
+                aria-label="Basic example"
+              >
+                <button
+                  type="button"
+                  class="btn text-light"
+                  style="background-color: #1ba678"
+                >
+                  PROCEED WITHOUT CAR NUMBER
+                </button>
+              </div>
+              <a
+                class="d-flex justify-content-center"
+                style="color: #1ba678; text-decoration: none"
+                href="#"
+                >Buying a new car? Click here</a
+              >
+              <div class="d-flex align-items-center p-4">
+                <img class="me-2" src="/media/wa.png" alt="" />
+                <h6>Get updates on whatsapp</h6>
+              </div>
+              <div class="row">
+                <div class="col-6 text-center">
+                  <p class="mb-1">Been Here Before?</p>
+                  <a style="color: #1ba678; text-decoration: none" href="#"
+                    >Get Back to My Quotes</a
+                  >
+                </div>
+                <div class="col-6 text-center">
+                  <p class="mb-1">4.5</p>
+                  <p>1000+ Reviews</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="working">
+        <h2 class="text-center mb-4">How PolicyBachat works</h2>
+        <div class="row m-0">
+          <div
+            class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/policy_media/compare.webp" alt="" />
+            <h3>Compare</h3>
+            <p class="ms-sm-4">
+              Answer a few questions, we'll provide accurate live quotes with a
+              side-by-side comparison from top insurance companies.
+            </p>
+          </div>
+          <div
+            class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="/policy_media/pick.webp" alt="" />
+            <h3>Pick</h3>
+            <p class="ms-sm-4">
+              Shop smart and Save by picking the insurer that will provide you
+              with the most discounts.
+            </p>
+          </div>
+          <div
+            class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center p-0"
+          >
+            <img src="/policy_media/buy.webp" alt="" />
+            <h3>Compare</h3>
+            <p class="ms-sm-4">
+              Get the policy you want the way you want it or schedule a call
+              with an agent. Buy online and save money.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="bg-light">
+        <h2 class="text-center p-2">Article of The Week</h2>
+        <div class="d-lg-flex align-items-center">
+          <figure class="col-12 col-lg-6 d-flex justify-content-center">
+            <img class="w-75" src="/policy_media/1604.jpg" alt="" />
+          </figure>
+
+          <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <p class="p-2">
+              New ₹5 Lakh Health Insurance for Seniors 70+ launched under
+              Ayushman Bharat, providing coverage for all elderly Indians. Learn
+              Eligibility, Benefits, and More. The Government of India has
+              Expanded its flagship Healthcare Program, “Ayushman Bharat Pradhan
+              Mantri Jan Arogya Yojana (AB PM-JAY)”, to include Health Insurance
+              Coverage for all Senior Citizens aged 70 years and above. This
+              Scheme offers Health Insurance worth ₹5 lakh per year for eligible
+              seniors, regardless of their socioeconomic status or income. With
+              this initiative, India takes a significant step towards ensuring
+              accessible healthcare for the elderly, reducing the financial
+              burden on families, and improving public health across the nation.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <section class="guide">
+        <h2 class="text-center">Your Source and complete guide to Insurance</h2>
+        <div class="card-container">
+          <h5 class="text-center p-2 mb-3">Car Insurance</h5>
+          <div class="cards row m-0 justify-content-center">
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/1596.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Car Insurance Companies for India 2024
+              </h3>
+            </div>
+
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/1596.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Car Insurance Companies for India 2024
+              </h3>
+            </div>
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/1596.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Car Insurance Companies for India 2024
+              </h3>
+            </div>
+
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/1596.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Car Insurance Companies for India 2024
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <h5 class="text-center p-2 mb-3">Two Wheeler Insurance</h5>
+          <div class="cards row m-0 justify-content-center">
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/879.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Two Wheeler Insurance Companies for India 2024
+              </h3>
+            </div>
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/879.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Two Wheeler Insurance Companies for India 2024
+              </h3>
+            </div>
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/879.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Two Wheeler Insurance Companies for India 2024
+              </h3>
+            </div>
+            <div
+              class="col-5 col-sm-3 p-0 m-1 border border-dark d-flex flex-column align-items-center shadow bg-body rounded"
+              style="width: 310px; height: 260px"
+            >
+              <figure class="">
+                <img
+                  style="width: 308px; border-radius: 6px"
+                  src="/policy_media/879.webp"
+                  alt=""
+                />
+              </figure>
+              <h3 class="fs-6 text-center">
+                Best Two Wheeler Insurance Companies for India 2024
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="panel container-fluid mt-4 p-4"
+        style="background-color: #7b00ff"
+      >
+        <h2 class="text-center text-light">
+          Start Saving Money on Insurance Policy
+        </h2>
+
+        <p class="text-center text-light">
+          Compare Life, Health, Car and Two wheeler Insurance rates from top
+          Insurance companies for free.
+        </p>
+
+        <div
+          class="panel-form bg-light m-auto d-flex flex-column justify-content-center px-2 rounded-2"
+          style="max-width: 450px"
+        >
+          <h4 class="text-center p-2">Compare Car Insurance Quotes</h4>
+          <button
+            type="button"
+            class="btn text-light fs-4"
+            style="background-color: #1ba678"
+          >
+            START SAVING MONEY
+          </button>
+          <div class="row p-3">
+            <div class="col-6 text-center">
+              <p class="mb-1">Been Here Before?</p>
+              <a style="color: #1ba678; text-decoration: none" href="#"
+                >Get Back to My Quotes</a
+              >
+            </div>
+            <div class="col-6 text-center">
+              <p class="mb-1">4.5</p>
+              <p>1000+ Reviews</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row m-0 ms-5 mt-3 panel-info text-light justify-content-center"
+        >
+          <div class="col col-lg-6">
+            <h4>PolicyBachat Blog</h4>
+            <p>
+              Top 5 Misconceptions About Car Insurance in India Explained Zero
+              Depreciation Car Insurance: Benefits, and Why You Need It
+              Essential Car Care and Insurance Tips to Keep Your Vehicle Running
+              Smoothly Why Electric Vehicle (EV) Insurance is Crucial for the
+              Future of Driving in India Best Car Insurance Companies in India
+              for 2024: Top Providers and Benefits Car Insurance By City
+            </p>
+          </div>
+
+          <div class="panel-info col-lg-6">
+            <div class="panel-info text-light">
+              <h4>Car Insurance By City</h4>
+              <ul
+                class="headerForm list-inline m-0 text-light"
+                style="display: flex; flex-wrap: wrap"
+              >
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Pune</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2 p-xs-1" href=""
+                    >Mumbai</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Amhedabad</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Delhi</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Nashik</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Nashik</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Nashik</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Nashik</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="panel-info text-light mt-4">
+              <h4>Car Insurance By State</h4>
+              <ul
+                class="headerForm list-inline m-0 text-light"
+                style="display: flex; flex-wrap: wrap"
+              >
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Maharashtra</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2 p-xs-1" href=""
+                    >Punjab</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Tamil Nadu</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Andhra Pradesh</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href=""
+                    >Gujarat</a
+                  >
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href="">MH</a>
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href="">MH</a>
+                </li>
+                <li class="list-inline-item me-0">
+                  <a class="text-light text-decoration-none p-2" href="">MH</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="top-footer p-4">
+          <ul
+            class="list-inline m-0 text-light"
+            style="display: flex; flex-wrap: wrap"
+          >
+            <li class="list-inline-item me-0 text-dark">Follow Us</li>
+            <li class="list-inline-item me-0">
+              <a class="text-dark text-decoration-none p-2 p-xs-1" href=""
+                >Facebook</a
+              >
+            </li>
+            <li class="list-inline-item me-0">
+              <a class="text-dark text-decoration-none p-2" href="">Twitter</a>
+            </li>
+            <li class="list-inline-item me-0">
+              <a class="text-dark text-decoration-none p-2" href=""
+                >Pinterest</a
+              >
+            </li>
+            <li class="list-inline-item me-0">
+              <a class="text-dark text-decoration-none p-2" href=""
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mid-footer row m-0 ms-4">
+          <div class="col-5 col-lg-4">
+            <ul class="list-group border-0">
+              <li class="list-group-item border-0 fw-bold">Company</li>
+              <li class="list-group-item border-0 text-bold">About</li>
+              <li class="list-group-item border-0">FAQs</li>
+              <li class="list-group-item border-0">Contact</li>
+              <li class="list-group-item border-0">Articles</li>
+              <li class="list-group-item border-0">Careers</li>
+              <li class="list-group-item border-0">Tags</li>
+              <li class="list-group-item border-0">Reviews</li>
+            </ul>
+          </div>
+
+          <div class="col-5 col-lg-4">
+            <ul class="list-group border-0">
+              <li class="list-group-item border-0 fw-bold">Our Services</li>
+              <li class="list-group-item border-0">Car Insurance</li>
+              <li class="list-group-item border-0">Two Wheeler Insurance</li>
+              <li class="list-group-item border-0">Health Insurance</li>
+              <li class="list-group-item border-0">Life Insurance</li>
+              <li class="list-group-item border-0">Health Insurance Plans</li>
+            </ul>
+          </div>
+          <div class="col-5 col-lg-4">
+            <ul class="list-group border-0">
+              <li class="list-group-item border-0 fw-bold">
+                Contact Information
+              </li>
+              <li class="list-group-item border-0">
+                Principal Officer : G Raj Kumar Yadav 9618170033
+              </li>
+              <li class="list-group-item border-0">
+                Email: rajkumar.golla@policybachat.com
+              </li>
+              <li class="list-group-item border-0">1800 123 4003</li>
+              <li class="list-group-item border-0">
+                Working Hours Monday to Sunday : 9:00 AM to 9:00 PM
+              </li>
+              <li class="list-group-item border-0">
+                Plot-4, Road No. 45/A, Masthan Nagar, Jubilee Hills, Hyderabad -
+                500033, Telangana, India.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="footers p-1 w-75 m-auto">
+        <ul
+          class="d-flex flex-wrap border border-dark border-start-0 border-end-0 justify-content-center"
+          style="list-style: none"
+        >
+          <li class="p-2">#</li>
+          <li class="p-2">A</li>
+          <li class="p-2">B</li>
+          <li class="p-2">C</li>
+          <li class="p-2">D</li>
+          <li class="p-2">E</li>
+          <li class="p-2">F</li>
+          <li class="p-2">G</li>
+          <li class="p-2">H</li>
+          <li class="p-2">I</li>
+          <li class="p-2">J</li>
+          <li class="p-2">K</li>
+          <li class="p-2">L</li>
+          <li class="p-2">M</li>
+          <li class="p-2">N</li>
+          <li class="p-2">O</li>
+          <li class="p-2">P</li>
+          <li class="p-2">Q</li>
+          <li class="p-2">R</li>
+          <li class="p-2">S</li>
+          <li class="p-2">T</li>
+          <li class="p-2">U</li>
+          <li class="p-2">V</li>
+          <li class="p-2">W</li>
+          <li class="p-2">X</li>
+          <li class="p-2">Y</li>
+          <li class="p-2">Z</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
